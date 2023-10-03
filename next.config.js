@@ -4,5 +4,8 @@ const nextConfig = {
         typedRoutes : true,
     }
 }
+module.exports = {
+    reactStrictMode: true,
+  };
 
 module.exports = nextConfig

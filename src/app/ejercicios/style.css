@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+css
+Copy code
+/* style.css */
+body {
+    background: linear-gradient(to bottom, black, #ff69b4);
+    background-color: #ff69b4;
+  }
+  
+  .ejercicio {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .ejercicio h2 {
+    color: #ff69b4;
+  }
+  
+  .ejercicio img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .ejercicio p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .titulo-ejercicios {
+    color: black; /* Cambia el color del texto a negro */
+    font-size: 24px; /* Cambia el tamaño de la fuente a 24 píxeles */
+    text-align: center; /* Centra el texto */
+    
+}

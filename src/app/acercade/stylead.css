@@ -9,6 +9,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
 }
+.container {
+    text-align: center;
+  }
+  
+  .tituloCentrado {
+    /* Estilos para el título centrado */
+  }
+  
+  .reseñaEmpresa {
+    margin-top: 20px; /* Espacio para la reseña de la empresa */
+  }
+  
+  .terminosCondiciones {
+    margin-top: 20px; /* Espacio para términos y condiciones */
+  }
 .img {
     max-width: 100%;
     height: auto;

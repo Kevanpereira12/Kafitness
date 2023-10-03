@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  input, button {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+  }
+  /* stylei.module.css */
+
+ .ingresarButton {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: pink;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+  button {
+    background-color: pink;
+    color: white;
+  }
+  
+  a {
+    color: lightblue;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

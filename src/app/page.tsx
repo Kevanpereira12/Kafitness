@@ -8,16 +8,7 @@ export default function Home() {
   return (
     <div>
       <header>
-      <nav>
-      
-      <ul className="miLista">
-  <li><Link href="/horario" className="linkEstilizado">Horario</Link></li>
-  <li><Link href="/ejercicios" className="linkEstilizado">Ejercicios</Link></li>
-  <li><Link href="/galeria" className="linkEstilizado">Galeria</Link></li>
-  <li><Link href="/acercade" className="linkEstilizado">Acerca de</Link></li>
-  <li><Link href="/iniciosesion" className="linkEstilizado">Iniciar sesión</Link></li>
-</ul>
-      </nav>
+      <a>Kafitness</a>
     </header>
     <main>
       <div className='img'>
@@ -26,7 +17,15 @@ export default function Home() {
       </div>
     </main>
     <footer>
-      Kafitness 2023
+    <nav>
+      
+      <ul className="miLista">
+  <li><Link href="/horario" className="linkEstilizado">Horario</Link></li>
+  <li><Link href="/ejercicios" className="linkEstilizado">Ejercicios</Link></li>
+  <li><Link href="/acercade" className="linkEstilizado">Acerca de</Link></li>
+  <li><Link href="/iniciosesion" className="linkEstilizado">Iniciar sesión</Link></li>
+</ul>
+      </nav>
     </footer>
   </div>
     

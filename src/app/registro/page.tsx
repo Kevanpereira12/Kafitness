@@ -1,6 +1,7 @@
 "use client"
 // src/components/Registro.js
 import React, { useState } from 'react';
+import "./registro.css";
 
 const Registro = () => {
   const [formData, setFormData] = useState({

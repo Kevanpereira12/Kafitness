@@ -8,7 +8,13 @@ Copy code
 body {
     background: linear-gradient(to bottom, black, #ff69b4);
     background-color: #ff69b4;
+    text-align: center;
   }
+  header {
+    background-color: #7784F8;
+    color: #fff;
+    padding: 10px;
+}
   
   .ejercicio {
     background: rgba(0, 0, 0, 0.7);
@@ -19,6 +25,7 @@ body {
   
   .ejercicio h2 {
     color: #ff69b4;
+    text-align: center;
   }
   
   .ejercicio img {
@@ -36,4 +43,91 @@ body {
     font-size: 24px; /* Cambia el tamaño de la fuente a 24 píxeles */
     text-align: center; /* Centra el texto */
     
+}
+footer {
+  background-color: #7784F8;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+nav ul li a:hover {
+  background-color: #F5BBE2; 
+  border-radius: 40px; 
+  display: inline-block; 
+  transition: background-color 0.3s;
+}
+.miLista li {
+  margin-bottom: 10px; 
+}
+.linkEstilizado:hover {
+  background-color: #F5BBE2; 
+  margin-bottom: 10%;
+  border-radius: 40px; 
+  display: inline-block; 
+  transition: background-color 0.3s;
+}
+@media (max-width: 768px) {
+  body {
+      margin: 0;
+      padding: 0;
+  }
+  
+  header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+  }
+  
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+  nav ul li {
+      display: inline;
+  }
+  
+  nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+  }
+  
+  main {
+      padding: 20px;
+  }
+  
+  footer {
+      background-color: #7784F8;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+  }
+  
+  header {
+      background-color: #7784F8;
+      color: white;
+      padding: 10px;
+      height: 60px;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+          flex-direction: column;
+          align-items: stretch;
+      }
+  
+      .nav-links {
+          margin-top: 10px;
+      }
+  
+      .nav-links li {
+          margin: 10px 0;
+      }
+  
+      header {
+          height: auto;
+      }
+  }
 }

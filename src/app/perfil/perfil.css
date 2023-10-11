@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .registro {
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  input,
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  input:focus,
+  button:focus {
+    outline: none;
+    border-color: #000;
+  }
+  
+  .ingresarButton {
+    background-color: pink;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    display: inline-block;
+  }
+  
+  a {
+    color: lightblue;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .registro {
+      width: 100%;
+    }
+  
+    input,
+    button {
+      width: 80%;
+    }
+  
+    .ingresarButton {
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+  

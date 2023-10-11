@@ -7,6 +7,7 @@ const Page = () =>{
     <div>
     <header>
     <a>Kafitness</a>
+    <li><Link href="/perfil" className="linkEstilizado">Perfil</Link></li>
   </header>
   <main>
     <div className='img'>
@@ -21,7 +22,7 @@ const Page = () =>{
 <li><Link href="/horario" className="linkEstilizado">Horario</Link></li>
 <li><Link href="/ejercicios" className="linkEstilizado">Ejercicios</Link></li>
 <li><Link href="/acercade" className="linkEstilizado">Acerca de</Link></li>
-<li><Link href="/perfil" className="linkEstilizado">Perfil</Link></li>
+<li><Link href="/iniciosesion" className="linkEstilizado">inicio sesion</Link></li>
 </ul>
     </nav>
   </footer>

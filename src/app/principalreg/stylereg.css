@@ -4,10 +4,11 @@
 
 css
 Copy code
-
+/* global.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    text-align: center;
 }
 .img {
     max-width: 100%;
@@ -17,10 +18,11 @@ body {
   }
 nav {
     background-color: #7784F8;
-    color: #ffffff;
+    color: #000000;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     padding: 10px 20px;
 }
 
@@ -56,6 +58,7 @@ footer {
 body {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 header {
@@ -135,8 +138,8 @@ header {
     }
     
     header {
-        background-color: #333;
-        color: #fff;
+        background-color: #ffffff;
+        color: #000000;
         padding: 10px;
     }
     
@@ -173,23 +176,39 @@ header {
         padding: 10px;
         height: 60px;
       }
-
-      @media (max-width: 768px) {
-        nav {
-            flex-direction: column;
-            align-items: stretch;
-        }
-    
-        .nav-links {
-            margin-top: 10px;
-        }
-    
-        .nav-links li {
-            margin: 10px 0;
-        }
-    
-        header {
-            height: auto;
-        }
+      nav {
+        padding: 5px 10px; /* Redefine el padding para hacerlo más compacto */
     }
-  }
+
+    .nav-links {
+        display: none; /* Oculta los enlaces en la versión móvil por defecto */
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links.active {
+        display: flex; /* Muestra los enlaces cuando el menú está activo */
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-links a {
+        padding: 10px;
+        font-size: 18px; /* Aumenta el tamaño del texto para mejorar la legibilidad en móviles */
+    }
+
+    .logo {
+        font-size: 20px; /* Reduce el tamaño del logo */
+    }
+
+    .nav-toggle {
+        display: block; /* Muestra el icono del menú */
+    }
+
+    .nav-toggle.active {
+        display: none; /* Oculta el icono del menú cuando está activo */
+    }
+    }

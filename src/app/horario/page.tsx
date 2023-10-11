@@ -5,6 +5,9 @@ import Link from 'next/link';
 const Page = () => {
   return (
     <div className="texto-centrado">
+         <header>
+      <a>Kafitness</a>
+    </header>
       <h1>Horario</h1>
       <div className="horarios-container">
         <p>Horarios de atención:</p>
@@ -25,10 +28,8 @@ const Page = () => {
     <nav>
       
       <ul className="miLista">
-  <li><Link href="/horario" className="linkEstilizado">Horario</Link></li>
-  <li><Link href="/ejercicios" className="linkEstilizado">Ejercicios</Link></li>
-  <li><Link href="/acercade" className="linkEstilizado">Acerca de</Link></li>
-  <li><Link href="/iniciosesion" className="linkEstilizado">Iniciar sesión</Link></li>
+      <li><Link href="/principalreg" className="linkEstilizado">Volver</Link></li>
+
 </ul>
       </nav>
     </footer>

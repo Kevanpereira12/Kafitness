@@ -2,6 +2,7 @@
 // src/components/Registro.js
 import React, { useState } from 'react';
 import "./registro.css";
+import Link from 'next/link';
 
 const Registro = () => {
   const [formData, setFormData] = useState({
@@ -25,6 +26,7 @@ const Registro = () => {
   };
 
   return (
+    
     <div className="registro">
       <h2>Registro</h2>
       <form onSubmit={handleSubmit}>
@@ -94,9 +96,10 @@ const Registro = () => {
             required
           />
         </div>
-        <button type="submit">Registrarse</button>
+        <Link href="/registro"> <button type="submit">  Registrarse</button> </Link> 
       </form>
     </div>
+    
   );
 };
 

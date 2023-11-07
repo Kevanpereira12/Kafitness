@@ -1,11 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    experimental:{
-        typedRoutes : true,
-    }
-}
-module.exports = {
-    reactStrictMode: true,
+    reactStrictMode: true, // Configuración de React Strict Mode
+    experimental: {
+      typedRoutes: true, // Habilitar la característica experimental de rutas con tipos
+    },
   };
-
-module.exports = nextConfig
+  
+  module.exports = nextConfig;
+  

@@ -1,61 +1,52 @@
 .registro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
-    background-color: #ffffff; /* Fondo rosa claro */
-  }
-  
-  .registro form {
-    max-width: 400px;
-    width: 100%;
-    padding: 20px;
-    background-color: #ffffff; /* Fondo blanco */
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .registro label {
-    font-weight: bold;
-    color: #000; /* Color de texto negro */
-    text-align: center; /* Centrar el texto */
-  }
-  
-  
-  .registro input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid;
-    border-radius: 8px;
-    background-color: #F5BBE2; 
-    border: none;
-  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.registro form {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.registro label {
+  font-weight: bold;
+  color: #000;
+  text-align: center; /* Cambia 'center' a 'left' para alinear el texto a la izquierda */
+}
+
+.registro input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-radius: 8px;
+  background-color: #F5BBE2;
   padding: 10px 20px;
   margin: 5px;
-  display: inline-block;
-    
-  }
-  
-  .registro button {
-    background-color: #007bff; /* Botón azul */
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    border: none;
-  border-radius: 20px;
+  display: block; /* Cambia 'inline-block' a 'block' para que los elementos aparezcan uno debajo del otro */
+}
+
+.registro button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
   padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
   margin: 5px;
-  display: inline-block;
-  }
-  
-  .registro button:hover {
-    background-color: #0056b3; /* Cambia el color al pasar el ratón */
-  }
- 
+  display: block; /* Cambia 'inline-block' a 'block' para que los elementos aparezcan uno debajo del otro */
+}
+
+.registro button:hover {
+  background-color: #0056b3;
+}
